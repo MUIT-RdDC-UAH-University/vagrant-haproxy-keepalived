@@ -74,7 +74,7 @@ vrrp_script chk_haproxy {           # Requires keepalived-1.1.13
 }
 
 vrrp_instance VI_1 {
-        interface enp0s3
+        interface enp0s8
         state MASTER
         virtual_router_id 51
         priority $1
